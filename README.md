@@ -1,1 +1,1 @@
-# javascript
+Exercícios feitos na linguagem de programação javascript

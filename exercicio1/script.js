@@ -13,7 +13,6 @@ function carregar(){
     if(hora >= 6 && hora < 12){
         img.src = 'img/fotomanha.png'
         window.document.body.style.background = '#F8D6BA'
-        msg.innerHTML += 'Bom dia!'
     } else if (hora >= 12 && hora < 18) {
         img.src = 'img/fototarde.png'
         window.document.body.style.background = '#9B7566'

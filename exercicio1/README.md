@@ -1,11 +1,19 @@
-Exercício feito na aula de exercícios de Condições do Curso em Vídeo, na qual devemos mostrar qual hora do dia é e exibir uma imagem condizente com o horário do dia.
+# Definição 
 
-Exemplos:
+Este exercício faz parte da aula de exercícios do módulo de Condições em JavaScript do Curso em Vídeo. O objetivo é criar um programa que determine a hora do dia e exiba uma imagem apropriada de acordo com esse horário. O programa utiliza condições para avaliar o período do dia (manhã, tarde ou noite) com base na hora atual do sistema e, em seguida, exibe uma imagem que corresponda ao período determinado.
 
-<strong>Boa tarde</strong>
+## Exemplos:
+
+* <strong>Bom dia</strong>
 
 <div align="center">
-<img src="https://github.com/thiagcarvalho/javascript/assets/46302988/c719f08c-fe58-4f7f-a9de-2965954507b3.png" width="450px" />
+<img src="https://github.com/thiagcarvalho/javascript/assets/46302988/b1b385a6-549e-4f83-b13c-62f8563f0525.png" width="450px" />
+</div>
+
+* <strong>Boa tarde</strong>
+
+<div align="center">
+<img src="https://github.com/thiagcarvalho/javascript/assets/46302988/92bf6787-96d6-46e9-94e2-281f7b52cde0.png" width="450px" />
 </div>
 
 

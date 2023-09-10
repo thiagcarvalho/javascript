@@ -17,4 +17,9 @@ Este exercício faz parte da aula de exercícios do módulo de Condições em Ja
 </div>
 
 
+* <strong>Boa noite (cedo)</strong>
+
+<div align="center">
+<img src="https://github.com/thiagcarvalho/javascript/assets/46302988/77459c5d-d54c-496a-8815-c63460838fc3.png" width="450px" />
+</div>
 

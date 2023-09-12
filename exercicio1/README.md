@@ -23,3 +23,8 @@ Este exercício faz parte da aula de exercícios do módulo de Condições em Ja
 <img src="https://github.com/thiagcarvalho/javascript/assets/46302988/77459c5d-d54c-496a-8815-c63460838fc3.png" width="450px" />
 </div>
 
+* <strong>Boa noite (tarde)</strong>
+
+<div align="center">
+<img src="https://github.com/thiagcarvalho/javascript/assets/46302988/95474251-7966-4636-9bc3-086ad0005ff5.png" width="450px" />
+</div>

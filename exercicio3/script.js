@@ -9,7 +9,7 @@ function contar(){
         window.alert('Verifique os valores digitados e tente novamente!')
     else {
 
-        resultado.innerHTML = `Contado... <br>`
+        resultado.innerHTML = `Contando... <br>`
 
         if (passo <= 0){
             
@@ -23,7 +23,7 @@ function contar(){
 
         } else {
 
-            for(inicio; inicio > final; inicio -= passo){
+            for(inicio; inicio >= final; inicio -= passo){
                 resultado.innerHTML += ` ${inicio} \u{1F449}`
             }
     

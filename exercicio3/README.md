@@ -7,13 +7,13 @@ Este exercício faz parte da aula de exercício do módulo de Repetições em Ja
 * <strong>Contagem crescente</strong>
 
 <div align="center">
-<img src="https://github.com/thiagcarvalho/javascript/assets/46302988/574a9413-f99c-4526-8bd4-39b46d655872.png" width="450px" />
+<img src="https://github.com/thiagcarvalho/javascript/assets/46302988/8b94bde4-f073-44c3-9b8b-25d9b5efa589.png" width="450px" />
 </div>
 
 * <strong>Contagem decrescente</strong>
 
 <div align="center">
-<img src="https://github.com/thiagcarvalho/javascript/assets/46302988/e4e3a213-b77c-4299-bbec-b731d9be2931.png" width="450px" />
+<img src="https://github.com/thiagcarvalho/javascript/assets/46302988/987f96d0-5675-4985-92dd-efea588ee157.png" width="450px" />
 </div>
 
 

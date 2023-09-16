@@ -1,17 +1,20 @@
-let vetorValores = []
-
+var vetorValores = []
+var tab = window.document.getElementById('seltab')
 
 function adicionaselect(){
 
-    let numero = Number(window.document.getElementById('inputnumber').value)
-    let tab = window.document.getElementById('seltab')
+    var num = window.document.getElementById('inputnumber').value
 
-    if(numero == null || numero == 0) {
-        window.alert('Por favor digite um número')
+    if(num == null || num == 0 || nao_e_num(num)) {
+        window.alert('Por favor digite um número válido')
     } else {
+        
+        let numero = Number(num)
 
-        if (verificaValor(numero)){
+
+        if (vetorValores.indexOf(numero) != -1){
             window.alert(`Digite um valor que não esteja na lista`)
+            
         } else {
 
             if (numero < 1 || numero > 100){
@@ -32,28 +35,33 @@ function adicionaselect(){
 
 function calcula() {
 
-    var maior, menor, soma, media
-    var resultado = window.document.getElementById('res')
-    let valores = window.document.getElementById('seltab')
-    let final = Number(valores.options.length)
+    let maior, menor, soma, media
+    let resultado = window.document.getElementById('res')
+    let final = Number(tab.options.length)
+
+
+    if (vetorValores.length == 0){
+        window.alert("Por favor insira algum valor antes de finalizar")
+        return
+    }
 
     vetorValores.sort()
 
     maior = vetorValores[final-1]
     menor = vetorValores[0]
 
-    soma = somadosvalroes(vetorValores, final)
+    soma = somadosvalores(vetorValores, final)
     media = soma/final
 
     resultado.innerHTML += `Ao todo, temos ${final} números cadastrados. </br>`
     resultado.innerHTML += `</br> O maior valor informado foi ${maior} </br>`
     resultado.innerHTML += `</br> O menor valor informado foi ${menor} </br>`
     resultado.innerHTML += `</br> A soma de todos os valores é ${soma} </br>`
-    resultado.innerHTML += `</br> A média dos valores digitados é ${media}`
+    resultado.innerHTML += `</br> A média dos valores digitados é ${media.toFixed(2)}`
 
 }
 
-function somadosvalroes() {
+function somadosvalores() {
 
     var somadosnumeros = 0
 
@@ -62,16 +70,13 @@ function somadosvalroes() {
     }
 
     return somadosnumeros
-
 }
 
-function verificaValor(valor) {
+function nao_e_num(valor) {
 
-    if(vetorValores.indexOf(valor) == -1){
-        return false
-    }
-    else{
+    if (parseInt(valor) != valor){
         return true
     }
 
+    return false
 }

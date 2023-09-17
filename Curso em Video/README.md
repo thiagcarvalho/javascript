@@ -1,0 +1,1 @@
+Exercicios feitos durante o curso de javascript do Curso em Video
